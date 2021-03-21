@@ -1,0 +1,54 @@
+.status-history-box {
+    /* Frame 125 */
+
+
+display: flex;
+left: 168px;
+top: 432px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+margin: 50px 0px
+}
+
+.name {
+    /* Frame 120 */
+
+
+/* Auto Layout */
+/* 
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 100px;
+height: 159px;
+left: 0px;
+top: 65px; */
+}
+
+
+.status {
+    /* Frame 121 */
+
+
+/* Auto Layout */
+
+/* display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 94px;
+height: 159px;
+left: 167px;
+top: 65px; */
+    
+}

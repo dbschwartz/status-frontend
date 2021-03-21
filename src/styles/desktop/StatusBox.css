@@ -1,0 +1,87 @@
+.status-box {
+/* Frame 111 */
+
+
+/* Auto Layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+position: static;
+width: 240px;
+height: 64px;
+left: 205px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 50px 0px;
+}
+
+.status-update {
+  /* Status Update */
+
+  position: static;
+  width: 240px;
+  height: 20px;
+  left: calc(50% - 240px / 2);
+  top: calc(50% - 20px / 2 - 22px);
+
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 20px;
+  /* identical to box height, or 56% */
+
+  text-align: center;
+  letter-spacing: -0.24px;
+
+  /* Soil800 */
+
+  color: #241010;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 20px 0px;
+}
+
+.status-info-text {
+  /* Please update your name and status. */
+
+
+position: static;
+left: 3.5px;
+top: 40px;
+
+font-family: Times;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: -0.24px;
+
+/* Soil800 */
+
+color: #241010;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 20px 0px;
+}
